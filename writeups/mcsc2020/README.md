@@ -2,5 +2,6 @@
 
 | No. | Type | Title |
 | --- | --- | --- |
-| 1 | Web | [1337 Flag](./web_1337.md) |
+| 1 | web | [1337 Flag](./web_1337.md) |
+| 2 | pwn | [whoami](./pwn_whoami.md) |
 |  |  |  |
