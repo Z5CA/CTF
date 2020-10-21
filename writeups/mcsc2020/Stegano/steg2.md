@@ -14,16 +14,16 @@ We can extract it using
 There are two files in extracted folder.
 Zip file is protected with password.
 Let's bruteforce its password with fcrackzip
-```$fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt ./4FF1F.zip 
+```$fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt ./4FF1F.zip ```
 
-PASSWORD FOUND!!!!: pw == password
-```
+```PASSWORD FOUND!!!!: pw == password```
+
 
 Bingo!!!; we get password
-In above command
--u : Try to decompress the first file by calling unzip with the guessed password. This weeds out false positives when not enough files have been given.
--D : Select dictionary mode. In this mode, fcrackzip will read passwords from a file, which must contain one password per line and should be alphabetically sorted.
--p : Set initial (starting) password for brute-force searching to string, or use the file with the name string to supply passwords for dictionary searching.
+In above command</br>
+-u : Try to decompress the first file by calling unzip with the guessed password. This weeds out false positives when not enough files have been given.<br>
+-D : Select dictionary mode. In this mode, fcrackzip will read passwords from a file, which must contain one password per line and should be alphabetically sorted.<br>
+-p : Set initial (starting) password for brute-force searching to string, or use the file with the name string to supply passwords for dictionary searching.<br>
 
 Unzip file ; password is password
 we get flag.png .Open it , Flag is mcsc{*}
