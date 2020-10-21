@@ -4,7 +4,7 @@ First I checked .jpg file with binwalk .There is nothing.</br>
  So I thought this word "hidden".</br>
  </br>
  I could guess  "steghide" tool that is  able to hide data in various kinds of image- and audio-files.
- <p>$steghide extract -sf duck4-s.jpg
+ <div>$steghide extract -sf duck4-s.jpg
  
  extract, --extract      extract data
  -sf, --stegofile        select stego file
@@ -41,10 +41,10 @@ Color Components                : 3
 Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
 Image Size                      : 367x279
 Megapixels                      : 0.102
-</p>
+</div>
 Haha ,We can see in Subject "flappybird".
-So I used it to unzip flag.zip
+So I used it to unzip flag.zip.
 Gotcha!!! cat flag.txt
-Is it a plane... is it a bird... it's cyber duck
+Is it a plane... is it a bird... it's cyber duck</br>
 Flag is ACSC2019{Is it a plane... is it a bird... it's cyber duck}
  
