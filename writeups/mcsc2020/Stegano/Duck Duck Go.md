@@ -1,12 +1,14 @@
 First I checked .jpg file with binwalk .There is nothing.</br>
  In challge's description it said 
- A duck flying a plane?!?! There must be a hidden meaning.</br>
- So I thought this word "hidden".
+ "A duck flying a plane?!?! There must be a hidden meaning".</br>
+ So I thought this word "hidden".</br>
+ </br>
  I could guess  "steghide" tool that is  able to hide data in various kinds of image- and audio-files.
- $steghide extract -sf duck4-s.jpg
+ <p>$steghide extract -sf duck4-s.jpg
  
  extract, --extract      extract data
  -sf, --stegofile        select stego file
+ 
  It showed "Enter Passpharse:"
  I didn't enter passpharse but it worked.
  We got a zip file with password protected.
@@ -39,7 +41,7 @@ Color Components                : 3
 Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
 Image Size                      : 367x279
 Megapixels                      : 0.102
-
+</p>
 Haha ,We can see in Subject "flappybird".
 So I used it to unzip flag.zip
 Gotcha!!! cat flag.txt
