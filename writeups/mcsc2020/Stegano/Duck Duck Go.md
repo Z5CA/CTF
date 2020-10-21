@@ -1,6 +1,6 @@
-First I checked .jpg file with binwalk .There is nothing.
+First I checked .jpg file with binwalk .There is nothing.</br>
  In challge's description it said 
- A duck flying a plane?!?! There must be a hidden meaning.
+ A duck flying a plane?!?! There must be a hidden meaning.</br>
  So I thought this word "hidden".
  I could guess  "steghide" tool that is  able to hide data in various kinds of image- and audio-files.
  $steghide extract -sf duck4-s.jpg
