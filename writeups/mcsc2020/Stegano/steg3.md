@@ -1,5 +1,5 @@
 I checked steg3.jpg with exiftool.
-$exiftool steg3.jpg 
+```$exiftool steg3.jpg 
 ExifTool Version Number         : 12.06
 File Name                       : steg3.jpg
 Directory                       : .
@@ -24,12 +24,14 @@ Color Components                : 3
 Y Cb Cr Sub Sampling            : YCbCr4:4:4 (1 1)
 Image Size                      : 1733x1733
 Megapixels                      : 3.0
+```
   Some base64 code is in comment.
-echo "aHR0cDovL3N0ZWdoaWRlLnNvdXJjZWZvcmdlLm5ldA==" | base64 --decode
+```echo "aHR0cDovL3N0ZWdoaWRlLnNvdXJjZWZvcmdlLm5ldA==" | base64 --decode
 http://steghide.sourceforge.net
-That is steghide tool. 
-$steghide extract -sf steg3.jpg
+```
+That is steghide tool.<br>
+```$steghide extract -sf steg3.jpg```
 I used passpharse " mcsc2018" that is given as hint in challenge.
-I got a text file and read it.
+I got a text file and read it.<br>
 Flag is "c3RlZ29fMjAwX2ExbW9zdF8zYTV5"
 Bingo!!!
