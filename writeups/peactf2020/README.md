@@ -4,4 +4,3 @@
 | --- | --- | --- |
 | 1 | web | [eff twelve](./web/efftwelve.md) |
 | 2 | web | [bots](./web/bots.md) |
-|  |  |  |
